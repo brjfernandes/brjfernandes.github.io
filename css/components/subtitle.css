@@ -1,6 +1,6 @@
 h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Press Start 2p', sans-serif;
     text-shadow: 3px 3px 0 var(--brj-cor-laranja_escuro);
-    color: #fff;
+    color: var(--brj-cor-branco);
 }
