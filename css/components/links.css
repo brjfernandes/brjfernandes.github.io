@@ -1,0 +1,20 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: var(--brj-cor-branco);
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.action:hover:not(.button) { /* hover em todas menos na button  */
+    transform: scale(1.05);
+    transition: transform 200ms cubic-bezier(0, 4, 1, 4);
+}
+
+.action::before {
+    content:"";
+    background-color: var(--brj-cor-laranja);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}

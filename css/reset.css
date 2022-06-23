@@ -4,5 +4,5 @@
     border: 0;
     text-decoration: none;
     list-style: none;
-	font: inherit /* tira os estilos das fontes */
+	font: inherit /* pega a propriedade do pai e herda */
 }

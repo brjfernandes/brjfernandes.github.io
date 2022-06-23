@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Fira Code', monospace;
+    font-family: 'Fira Code', monospace, sans-serif;
     font-weight: 500;
 
 }
@@ -18,57 +18,8 @@ img {
     height: 60px;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: var(--brj-cor-gradiente);
-    border-bottom: 5px solid var(--brj-cor-laranja);
-    padding: 10px 20px;
-}
-
 nav {
     text-align: right;
-}
-
-a {
-    display: inline-flex;
-    align-items: center;
-    color: var(--brj-cor-branco);
-    font-size: 16px;
-    
-    padding-right: 20px;
-}
-
-a:hover:not(.button) {
-    transform: scale(1.05);
-    transition: transform 200ms cubic-bezier(0, 4, 1, 4);
-}
-
-a::before {
-    content:"";
-    background-color: var(--brj-cor-laranja);
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-.button {
-    display: inline-block; /* PARA SETAR ALTURA, TAG "A" É POR PADRÃO INLINE */
-    border-radius: 5px;
-    border: 2px solid var(--brj-cor-laranja);
-    color: var(--brj-cor-branco);
-    background-color: var(--brj-cor-laranja);
-    box-shadow: 3px 3px 0 var(--brj-cor-laranja_escuro);
-    padding: 10px 15px;
-    transition: none;
-    
-}
-
-.button:active {
-    box-shadow: inset 3px 3px var(--brj-cor-laranja_escuro) ;
-    transform: translate(2px,2px);
-    
 }
 
 /*

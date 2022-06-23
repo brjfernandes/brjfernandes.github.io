@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--brj-cor-gradiente);
+    border-bottom: 5px solid var(--brj-cor-laranja);
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 60px;
+}
