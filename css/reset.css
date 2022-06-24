@@ -4,5 +4,6 @@
     border: 0;
     text-decoration: none;
     list-style: none;
-	font: inherit /* pega a propriedade do pai e herda */
+	font: inherit; /* pega a propriedade do pai e herda */
+    box-sizing: border-box;
 }

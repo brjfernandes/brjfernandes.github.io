@@ -1,0 +1,10 @@
+.banner.-skills {
+    padding: 0;
+    background: var(--bjr-cor-gradiente_3);
+}
+
+.title.-second{
+    color: var(--brj-cor-branco);
+    text-align: center;
+    padding-top: 30px;
+}

@@ -4,10 +4,12 @@
     --brj-cor-azul_claro: #083165;
     --brj-cor-gradiente: linear-gradient(180deg, rgba(5,25,51,1) 0%, #2c3e50 100%);
     --bjr-cor-gradiente_2: linear-gradient(90deg, #051933 0%, #2c3e50 100% );
+    --bjr-cor-gradiente_3: linear-gradient(90deg, var(--brj-cor-laranja) 0%, var(--brj-cor-laranja_escuro) 100% );
     --brj-cor-branco: #ffffff;
     --brj-cor-laranja: #C78C19;
     --brj-cor-laranja_escuro: #936812;
     --brj-cor-cinza:  #3A4042;
+    --brj-cor-preto: #000000;
    }
 
 body {
