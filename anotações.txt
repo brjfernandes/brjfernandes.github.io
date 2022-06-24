@@ -1,0 +1,25 @@
+1
+Comecei a usar o git e github, realmente é muito interessante trabalhar com os commits
+deixa o site mais seguro, pra caso de algum erro
+é meio complicado no inicio ter que lembrar dos atalhos toda que eu iria continuar o portifolio
+mas vale a pena
+
+2
+usei uma nova tecnica de organização, a criação da pasta "components" dentro do css
+que serve pra guardar todos os arquivos "importantes" que de algum modo, serão reutilizados
+ou apenas pra deixar isolado e melhorar a manutenção futura.
+até o momento, não passei nenhum problema, só precisa pensar no que quer fazer pra nao sofrer
+
+3
+sempre usar titulo no h1 e descrição pro h2
+
+4
+sempre fazer tudo dinamico!
+evitar utilizar px, ou propriedades estáticas que em algum momento vai dar algum problema
+
+ex: display inline nao usa largura e altura, mas usa o tamanho do conteudo
+    display block usa a pagina toda  
+    display inline-block usa a pagina e largura do conteudo
+então conseguimos usar a box do protifólio para o bgc ter exatamente a largura do conteudo
+deixando 100% dinamico em qualquer tela
+

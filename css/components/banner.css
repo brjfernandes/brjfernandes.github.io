@@ -1,0 +1,32 @@
+.banner {
+    box-sizing: border-box;
+    background: var(--bjr-cor-gradiente_2);
+    height: 400px;
+    border-bottom: 5px solid var(--brj-cor-laranja);  
+    padding: 80px 0 0 60px;    
+    
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 800px;  
+}
+
+.banner .box {
+    display: inline-block;
+    background-color:var(--brj-cor-cinza);
+    box-shadow: 10px 10px 0 var(--brj-cor-azul_escuro);
+    text-align: center;
+    padding: 35px 20px;
+    margin-bottom: 30px;
+}
+
+.banner .box .title {
+    margin-bottom: 20px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}
