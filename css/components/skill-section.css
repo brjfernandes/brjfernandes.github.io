@@ -1,0 +1,22 @@
+.main-title.-second{
+    color: var(--brj-cor-branco);
+    text-align: center;
+}
+
+.skill-tec {
+    display: flex;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 16px;
+    color: var(--brj-cor-branco);
+}
+
+.skill-tec .icon {
+    width: 55px;
+    margin-right: 15px;
+}
+
+.skill-tec .pos-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

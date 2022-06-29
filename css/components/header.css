@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--brj-cor-gradiente);
+    background: var(--brj-cor-gradiente_1);
     border-bottom: 5px solid var(--brj-cor-laranja);
     padding: 10px 20px;
 }

@@ -2,7 +2,7 @@
     --brj-cor-azul_escuro: #051933;
     --brj-cor-nightblue: #2c3e50;
     --brj-cor-azul_claro: #083165;
-    --brj-cor-gradiente: linear-gradient(180deg, rgba(5,25,51,1) 0%, #2c3e50 100%);
+    --brj-cor-gradiente_1: linear-gradient(180deg, rgba(5,25,51,1) 0%, #2c3e50 100%);
     --bjr-cor-gradiente_2: linear-gradient(90deg, #051933 0%, #2c3e50 100% );
     --bjr-cor-gradiente_3: linear-gradient(90deg, var(--brj-cor-laranja) 0%, var(--brj-cor-laranja_escuro) 100% );
     --brj-cor-branco: #ffffff;
