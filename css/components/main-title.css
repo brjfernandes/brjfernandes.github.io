@@ -3,4 +3,5 @@
     font-size: 30px;
     color: var(--brj-cor-laranja_escuro);
     text-shadow: 3px 3px 0 var(--brj-cor-azul_escuro);
+    margin-bottom: 20px;
 }

@@ -6,6 +6,12 @@
     
 }
 
+.container-header {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 .banner .wrapper {
     display: flex;
     flex-direction: column;

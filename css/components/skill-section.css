@@ -5,9 +5,11 @@
 
 .skill-tec {
     display: flex;
+    align-items: center;  /* ajeitar o height dos icones, ja que ele segue o tamanho total do elementos, com o align ele fica no meio usando o tamanho original */
     font-family: 'Press Start 2P', sans-serif;
     font-size: 16px;
     color: var(--brj-cor-branco);
+    
 }
 
 .skill-tec .icon {
@@ -15,8 +17,6 @@
     margin-right: 15px;
 }
 
-.skill-tec .pos-skill {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.skill-tec .title {
+    margin-bottom: 5px;
 }

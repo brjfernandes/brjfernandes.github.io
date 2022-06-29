@@ -1,0 +1,21 @@
+.section.-project {
+    background: var(--brj-cor-nightblue);
+}
+
+.section.-project .position-project {
+    display: flex;
+    flex-wrap: wrap; /* deixa responsivo para descer os itens caso diminua */
+    justify-content: space-evenly;
+    max-width: 1600px; /* seta o tamanho para nao ultrapassar */
+    margin: 0 auto; /* coloca o content no meio da tela */
+}
+
+.main-title.-third {
+    color: var(--brj-cor-branco);
+    text-align: center;
+}
+
+.icon-project {
+    width: 200px;
+    margin-bottom: 20px;
+}

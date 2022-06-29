@@ -1,0 +1,21 @@
+.wrapper-skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* também funciona */
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.wrapper-skill .skill-tec {
+    margin-bottom: 20px;
+}
+
+/* .wrapper-skill .skill-tec:nth-child(odd) {
+    margin-right: 80px;
+        
+        nth-child ele pega todos os filhos 
+        desse classe faz algo (),
+        o EVEN ou ODD, par ou ímpar  
+    
+}
+*/
