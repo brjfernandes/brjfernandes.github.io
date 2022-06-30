@@ -1,5 +1,6 @@
 .section.-project {
     background: var(--brj-cor-nightblue);
+    border-color: white ;
 }
 
 .section.-project .position-project {
@@ -8,11 +9,6 @@
     justify-content: space-evenly;
     max-width: 1600px; /* seta o tamanho para nao ultrapassar */
     margin: 0 auto; /* coloca o content no meio da tela */
-}
-
-.main-title.-third {
-    color: var(--brj-cor-branco);
-    text-align: center;
 }
 
 .icon-project {
