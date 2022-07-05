@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block; /* PARA SETAR ALTURA, TAG "A" É POR PADRÃO INLINE */
     border-radius: 5px;
     border: 2px solid var(--brj-cor-laranja);
@@ -8,7 +8,7 @@
     padding: 10px 15px;    
 }
 
-.button:active {
+.main-button:active {
     box-shadow: inset 3px 3px var(--brj-cor-laranja_escuro) ;
     transform: translate(2px,2px);
 }
