@@ -1,9 +1,9 @@
-.section {
+.main-section {
     background: var(--bjr-cor-gradiente_3);
     border-bottom: 5px solid var(--brj-cor-preto);
     padding: 50px 0 100px;
 }
 
-.section .main-title {
+.main-section .main-title {
     margin-bottom: 50px;
 }

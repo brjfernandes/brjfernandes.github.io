@@ -1,9 +1,9 @@
-.section.-project {
+.main-section.-project {
     background: var(--brj-cor-nightblue);
     border-color: white ;
 }
 
-.section.-project .position-project {
+.main-section.-project .position-project {
     display: flex;
     flex-wrap: wrap; /* deixa responsivo para descer os itens caso diminua */
     justify-content: space-evenly;
