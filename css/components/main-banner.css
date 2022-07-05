@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     background: var(--bjr-cor-gradiente_2);
     height: 400px;
     padding: 80px 0 0 60px;    
@@ -12,13 +12,13 @@
     margin: 0 auto;
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 800px;  
 }
 
-.banner .box {
+.main-banner .box {
     display: inline-block;
     background-color:var(--brj-cor-cinza);
     box-shadow: 10px 10px 0 var(--brj-cor-azul_escuro);
@@ -27,11 +27,11 @@
     margin-bottom: 30px;
 }
 
-.banner .box .title {
+.main-banner .box .title {
     margin-bottom: 20px;
 }
 
-.banner .navigation {
+.main-banner .navigation {
     display: flex;
     justify-content: space-around;
 }
