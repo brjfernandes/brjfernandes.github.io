@@ -1,6 +1,6 @@
 .main-subtitle {
-    font-size: 25px;
     font-family: 'Press Start 2p', sans-serif;
+    font-size: 25px;    
     text-shadow: 3px 3px 0 var(--brj-cor-laranja_escuro);
     color: var(--brj-cor-branco);
 }

@@ -1,0 +1,44 @@
+.main-section.-sobre .position-img-sobre {
+    display: flex;
+    align-items:center;
+}
+
+.main-section .icon-sobre {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.main-description {
+    text-align: justify;
+    color: var(--brj-cor-branco);
+    font-weight: 300;
+    line-height: 140%; /* % com base no tamanho da fonte 140% = 1.4 */
+}
+
+.button-arrow {
+    background-color: var(--brj-cor-nightblue);
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 0 var(--brj-cor-preto);
+    cursor: pointer;
+}
+
+.content {
+    display: none; /* sumir com o nome do texto, pra isso criou uma classe span e deu "none" */
+}
+
+.button-arrow::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 28px solid var(--brj-cor-branco);
+    box-sizing: border-box;
+    transform: translateX(13px);
+}
+
+.button-arrow.-left::before {
+transform: rotate(180deg) translateX(5px);;
+
+}
